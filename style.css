@@ -1,0 +1,87 @@
+* {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+header {
+  background: #f0fff0;
+}
+
+header .navbar .nav-link {
+  color: #000000;
+}
+
+header .navbar .nav-item {
+  margin-left: 40px;
+}
+
+header .navbar .nav-item .signin {
+  background: #21b573;
+  padding: 10px 30px;
+  border-radius: 33px;
+  opacity: 0px;
+  color: white;
+
+}
+
+/* banner section */
+.banner-section {
+  background: #f0fff0;
+  width: 100%;
+  padding: 0px 0 70px;
+}
+
+.banner-section .banner-text h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #FB6735;
+}
+
+.banner-section .banner-text h1 {
+  width: 66%;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.banner-section .banner-text{
+    margin-top: 115px;
+}
+.banner-section .banner-text span {
+  color: #21b573;
+}
+
+.banner-section .banner-text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  width: 64%;
+  text-decoration: rgb(255, 255, 255);
+}
+
+/* button */
+.get-started-button{
+    margin-top: 30px;
+}
+.get-started-button .btn-info {
+  background: #21b573;
+  padding: 10px 36px;
+  border-radius: 33px;
+  opacity: 0px;
+  color: white;
+  border: 1px solid black;
+
+}
+
+
+.btn-info:hover {
+    background-color: #21b573 !important; 
+    border-color: #21b573 !important; 
+    box-shadow: none !important; 
+    border: 1px solid black !important;
+    color: white !important;
+  }
